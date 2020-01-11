@@ -27,6 +27,8 @@ group :development, :test do
   gem 'capistrano-rbenv'
   gem 'capistrano3-unicorn'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'bcrypt_pbkdf'
+  gem 'ed25519'
 end
 
 group :development do
